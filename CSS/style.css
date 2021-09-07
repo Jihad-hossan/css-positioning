@@ -11,6 +11,8 @@ body {
     background-color: white;
     max-width: 80%;
     padding: 30px;
+    overflow: hidden;
+    position: relative;
     
 }
 h1 {
@@ -41,4 +43,29 @@ h1 {
     padding-top: 30px;
     font-size: 1.2rem;
     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+/* positioning the facebook img */
+.img  {
+    width: 100px;
+    height: 35px;
+    border-radius: 5px;
+    position: absolute;
+    top: 70vh;
+    right: -67px;
+    transition: 1s;
+}
+.img:hover {
+    position: absolute;
+    top: 70vh;
+    right: 0px;
+}
+.social {
+    width: 100%;
+    min-height: 50px;
+    background-color: grey;
+}
+.social a {
+    text-decoration: none;
+    padding: 20px;
+    font-size: 1.5rem;
 }
