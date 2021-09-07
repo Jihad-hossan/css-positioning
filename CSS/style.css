@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: whitesmoke;
+}
+.container {
+    margin: auto;
+    background-color: white;
+    max-width: 80%;
+    padding: 30px;
+    
+}
+h1 {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 10px;
+}
+.green {
+    width: 800px;
+    height: 480px;
+    margin: auto;
+    background-color: #006a4d;
+    position: relative;
+}
+.red {
+    width: 320px;
+    height: 320px;
+    border-radius: 100%;
+    background-color: #f4253f;
+    position: absolute;
+    left: 200px;
+    top: 80px;
+}
+.fig {
+    text-align: center;
+}
+.about {
+    padding-top: 30px;
+    font-size: 1.2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
